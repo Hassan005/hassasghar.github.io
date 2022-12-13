@@ -1,231 +1,54 @@
 ---
-title: Outreachy | Introduce Yourself
-date: "2022-12-23T22:12:03.284Z"
-description: "Hello World"
+title: Outreachy | Week 1
+# date: "2022-12-10T22:13:03.284Z"
+description: "Hello All :). I am writing this blog to document my internship with Outreachy."
 ---
 
-This is my first post on my new fake blog! How exciting!
 
-I'm sure I'll write a lot more interesting things in the future.
+## Outreachy
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+> Hello All :). I am writing this blog to document my internship with Outreachy.
+> Internship run December 5, 2022 to March 3, 2023
+> I will be publishing one blog by the end of every week. 
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+<!-- ![Chinese Salty Egg](../../../src/images/profile-hassan.jpeg)   -->
 
-You can also write code blocks here!
+ 
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+## Who am i ?
+My name is **Hassan Asghar**. I am an Openstack Intern in **Outeachy** for project **Implement features for Manila User Interface**.
+My mentors for this project are **Goutham Pacha Ravi and Carlos da Silva**. I have done my bachelors in Computer Science and I have worked as a freelancer in Fiverr and Upwork. My tasks include scripting and automation in python.
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+### My Core Values
+ **My core values are**:
+ 1. **Determination and hardwork** 
+ Determination and hardworking are two important factors to grow in every field. I beilive that these when combined produce bet results for anyone.
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+ 2. **Humble** 
+ My friends call me a humble person. I think it is good quality which helps and binds stronger and professional relationships. 
 
-This is a paragraph.
+ 3. **Trustworthy**
+ To build any relationship, you need to trust other person for healthy and loyal relationship and i think and i am the one who can be trusted. 
 
-    This is a paragraph.
+ ## About this week 
+ > We started of with a meeting of almost 1 hour which was introductory meetings with my both mentors.
+ > We both shared our background and discussed weekly tasks.
+ > To sum up, our agenda for a week 1 was :
+  1. Define a recurring meeting slot
+  2. Keeping connected to Zulip
+  3. Setting up IRC and OpenStack accounts
+  4. Accessing the environment
+  5. Installing devstack
+  6. Clone manila-ui and horizon
 
-# Header 1
+ We started with defining recurring slot for our weekely meetings, and keeping connected on Zulip with other members.
+ Once done with that i have created necessary accounts required to start my project. My mentors have provided me with VM, to access my work remotely. So the real challenge was installing devstack on my VM. I already have discussed with my mentors how to follow the approach to install devstack, and they had aslo shared resources to follow along. After creating necessary accounts for devstack , i have cloned the actual code from GitHub. Then i have created a local.conf file that would have all the guidelines to install resources required. As suggested by Gautham, i have added manila-ui in local.conf file and started installation for devstack, but it was failing continuously due to the tempest error, i pinged my mentors, Carlos replied to remove host_ip part as it was not necessary and then try a re run but it failed again, Carlos also tried on his part but it got failed. I somehow removed the manila-ui line from local.conf file and then tried re-run and it got successfully installed but as Gautham suggested adding that manila-ui backend, the installation was just as half a way. We discussed again the situation and Carlos suggested that it is open source and changes are happening continuously and at that time i tried installation, bug might be was in progress state, and we were facing error then upon retrying we were able to successfully install devstack along with manila-ui.
 
-## Header 2
+ Along with my tasks, hosting blog was also quite challenging as i had already purchased domain with my name and hosting was a bit expensive, after some findings and research i came with this amazing cloud hosting service whicb provides boiler plate for a blogs and can directly take your code from GitHub and hosts thereon your custom domain.
 
-    Header 1
-    ========
+ > So this was all about my first week and now we are moving towards second. See you :)
 
-    Header 2
-    --------
 
-# Header 1
 
-## Header 2
 
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://via.placeholder.com/200x50 "Image Title")
-
-    ![Alt Text](https://via.placeholder.com/200x50 "Image Title")
