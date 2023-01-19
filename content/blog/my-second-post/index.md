@@ -5,7 +5,7 @@ description: "Everybody struggles"
 ---
 
 ---
-### "Everybody struggles"
+# Everybody struggles
  There is so much to write about this week. It was all about everybody struggles. Past 4 weeks I was not able to 
  give proper time to my internship due to some family problems. Thanks to my both mentors who helped me and encouraged me 
  to take breaks and spend time with family. Thanks to Outreachy organizers who were in contact with my mentors and helped me 
@@ -17,17 +17,17 @@ description: "Everybody struggles"
 
 **Weekly tasks**.
 
-# Manila UI / Horizon code walkthrough 
+## Manila UI / Horizon code walkthrough 
  For understanding the Manila UI framework, my mentors had given me a brief introduction and provided a code walkthrough. 
  It was a brief introduction. Carloss has gone through briefly every module and component in OpenStack and how they are linked with each other. API calls, request, and response flow with Manila UI framework relevance which helped me to understand how to link them to the actual Manila UI. 
 
-# First approarch was to understand the bug.
+## First approarch was to understand the bug.
 To understand the bug, I have gone through several documents and spent time reading them. My mentors have shared some of the resources
  which were also helpful. I studied about shares replication, and what types of replication types are supported for example 
  readable , writeable, and dr. Understanding active and non-active replication , as active refers to replication that can be accessed 
  to read and write records. Non-active replicas have only read access and can't be written into. Then I studied about promotion for replicas which helps in understanding the transitions of replicas.
 
-# Reproducing the bug 
+## Reproducing the bug 
  As I had some understanding and written documents, how to approach to reproduce the bug. My mentors provided me with some resources and steps to start with. Firstly, I had checked in the backend side whether, the replication type is set Manila configurations file, after enabling the backend stanzas I had to restart manila services with the command:
  sudo systemctl restart devstack@m-*
  Then I started with the command line provided in Manila documentation, a link shared by Carloss, i followed it thoroughly to understand the flow.
@@ -40,7 +40,7 @@ To understand the bug, I have gone through several documents and spent time read
  After noticing the problem I was able to successfully create a share.
  Then I promoted the share by switching the replica to an active state and created a shred replica and during its transition, I was able to see the set as an active button.
 
-# Open Infra Summit
+## Open Infra Summit
 My mentor Gautham also shared the Open Infra summit and its travel support program which helps financially to cover the stipend to attend the event. I am very much interested in events like these and I would love to attend if I could get an opportunity.
 
 Bye see you with week 3rd Blog:)
