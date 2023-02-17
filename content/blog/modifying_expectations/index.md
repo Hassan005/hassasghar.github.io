@@ -1,5 +1,5 @@
 ---
-title: Outreachy | Week 7
+title: Outreachy | Week 6
 # date: "2022-12-23T22:40:32.169Z"  
 description: Modifying Expectations
 ---
